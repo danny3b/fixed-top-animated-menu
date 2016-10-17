@@ -1,27 +1,44 @@
 .anchor {
-   border-top: 50px solid transparent;
-    margin-top: -50px;
-    -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
-    background-clip: padding-box;
-  margin-bottom:0px;
+  border-top: 50px solid transparent;
+  margin-top: -50px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  margin-bottom: 0px;
 }
 
 .top-padding-50 {
-    padding-top:50px;
+  padding-top: 50px;
 }
 
 .active a {
-    background-color:cadetblue !important;
+  background-color: cadetblue !important;
 }
 
 .footer {
-    margin-top:30px;
-    width: 100%;
-    height: 40px;
-    background-color: #f5f5f5;
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  background-color: #f5f5f5;
 }
 
 .footer p {
-    margin: 10px 0;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 720px) {
+
+  .top-padding-50 {
+    padding-top: 180px;
+  }
+  
+  .anchor {
+    border-top: 180px solid transparent;
+    margin-top: -180px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    margin-bottom: 0px;
+  }
+  
 }
